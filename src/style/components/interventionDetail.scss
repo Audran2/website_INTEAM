@@ -1,0 +1,94 @@
+.interventionDetail{
+    height: fit-content;
+    background-color: white;
+    width: 100%;
+    .topCard{
+        padding: 2vh;
+        display: flex;
+        align-items: center;
+        border-bottom: solid 2px $grisBorder;
+        img{
+            height: 8vh;
+            margin-right: 20%;
+        }
+        .titre{
+            .type, .sepa, .produit{
+                font-weight: bold;
+                font-size: 2rem;
+                margin-right: 1vh;
+            }
+        }
+    }
+    .middleCard{
+        display: flex;
+        flex-direction: column;
+        padding: 2vh;
+        gap: 3vh;
+        .titre{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .adresse, .probleme, .description{
+            .princi{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            .secon{
+                font-size: 1.5rem;
+            }
+        }
+        .probleme{
+            button{
+                margin-left: 15%;
+                padding: 1.5vh;
+                border-radius: 25px;
+                background-color: $bleu;
+                color: white;
+                border: none;
+            }
+        }
+    }
+    .bottomCard{
+        display: flex;
+        gap: 3vw;
+        padding: 2vh;
+        img{
+            width: 15vw;
+            border-radius: 50px;
+            padding: 1vh;
+        }
+        .produit{
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            .nom{
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+            .ref, .marque{
+                font-size: 2rem;
+                color:$grisEcriture
+            }
+        }
+        .assignement{
+            display: flex;
+            gap: 3vh;
+            flex-direction: column;
+            width: 100%;
+            input, select{
+                width: 100%;
+                height: 5vh;
+                border: none;
+                border-bottom: 2px solid $grisBorder;
+            }
+            button{
+                margin-left: 15%;
+                padding: 1.5vh;
+                border-radius: 25px;
+                background-color: $bleu;
+                color: white;
+                border: none;
+            }
+        }
+    }
+}

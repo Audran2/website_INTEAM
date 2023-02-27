@@ -1,0 +1,16 @@
+.chartReparation{
+    width: 100%;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 2vh;
+    .topCard{
+        display: flex;
+        justify-content: space-between;
+    }
+    select{
+        color: $grisEcriture;
+        
+        border: none;
+        border-bottom: solid $grisBorder;
+    }
+}

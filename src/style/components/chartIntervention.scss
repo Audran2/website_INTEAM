@@ -1,0 +1,22 @@
+.chartIntervention{
+    width: 100%;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 2vh;
+    margin-top: 3vh;
+    .topCard{
+        display: flex;
+        justify-content: space-between;
+    }
+    .diagrammeIntervention{
+        display: flex;
+        justify-content: center;
+        height: 40vh;
+    }
+    select{
+        color: $grisEcriture;
+        
+        border: none;
+        border-bottom: solid $grisBorder;
+    }
+}

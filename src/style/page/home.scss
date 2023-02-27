@@ -1,0 +1,47 @@
+.stats{
+    display: flex;
+}
+.calendarContainer{
+    margin-top: 2vh;
+    padding: 2vh;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    .topCalendar{
+        font-size: 1.5rem;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        .selectContainer{
+            select{
+                color: $grisEcriture;
+                
+                border: none;
+                border-bottom: solid $grisBorder;
+            }
+        }
+    }
+    .progessBarContainer{
+        width: 95%;
+        height: 5px;
+        background-color: grey;
+        .progress{
+            height: 100%;
+            width: 75%;
+            background-color: yellow;
+        }
+    }
+    .dateToday{
+        width: 95%;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+.chartRight{
+    margin-top: 2vh;
+    margin-left: 5vh;
+    width: 40%;
+}

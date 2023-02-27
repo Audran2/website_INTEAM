@@ -1,0 +1,116 @@
+.reportDetail{
+    margin-left: 2vw;
+    height: fit-content;
+    background-color: white;
+    .topCard{
+        padding: 2vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 2px $grisBorder;
+        img{
+            width: 3vw;
+        }
+        .techni{
+            display: flex;
+            align-items: center;
+            .nomtechni{
+                margin-left: 2vh;
+                color: $grisEcriture;
+                font-size: 1.3rem;
+            }
+        }
+        .titre{
+            .nomClient, .sepa, .produit{
+                font-weight: bold;
+                font-size: 2rem;
+                margin-right: 1vh;
+            }
+        }
+        .status{
+            padding: 1vh 2vh;
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 10px;
+        }
+        .termine {
+            background-color: $vert;
+        }
+        .assigne{
+            background-color: $jaune;
+        }
+        .annule{
+            background-color: $rouge;
+        }
+
+    }
+    .middleCard{
+        display: flex;
+        justify-content: space-between;
+        margin: 1vw 3vh;
+        .productImage{
+            width: 40%; 
+        }
+        .infoReparation{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 2rem;
+            .date{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                font-size: 2rem;
+                color: $grisEcriture;
+            }
+            .liste{
+                display: flex;
+                flex-direction: column;
+                gap: 2vh;
+                ul{
+                    margin-left: 4vh;
+                    color: $grisEcriture;
+                    li{
+                        margin-bottom: 1vh;
+                    }
+                }
+            }
+        }
+    }
+    .bottomCard{
+        display: flex;
+        justify-content: space-between;
+        margin: 1vw 3vh;
+        .infoComplementaire{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            .titre{
+                font-size: 1.7rem;
+            }
+            .description{
+                color: $grisEcriture;
+                font-size: 1.2rem;
+            }
+        }
+        .infoMachine{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            .titre{
+                font-size: 1.7rem;
+            }
+            ul{
+                margin-left: 4vh;
+                font-size: 1.5rem;
+                color: $grisEcriture;
+                li{
+                    margin-bottom: 1vh;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.DetailsClientDiv{
+    background-color: white;
+    height: 90vh;
+    width: 42vw;
+    
+    .HeaderDetailsClient{
+        padding: 1vw;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $grisBorder;
+        height: 10vh;
+        img{
+      
+            height: 100%;
+        }
+        .Statut{
+            background-color: $vert;
+            color: white;
+            height: 4vh;
+            padding: 0.5vw 1vw;
+            border-radius: 0.5vw;
+            font-size: 1.2rem;
+        }
+        .ClientsNomRegion{
+            text-align: center;
+            p{
+                font-weight: bold;
+                font-size: 2rem;
+                color: $bleu;
+            }
+            .ClientRegion{
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: $grisEcriture;
+            }
+        }
+    }
+    .ContainerDetailsClient{
+        color: $bleu;
+        .formChoix{
+            
+            display: flex;
+            justify-content: center;
+            gap: 10vw;
+            margin-top: 5vh;
+            select{
+                    color: $grisEcriture;
+                    border: none;
+                    border-bottom: 1px solid $grisBorder;
+                    font-size: 1vw;
+            }
+        }
+
+        
+    }
+    
+}

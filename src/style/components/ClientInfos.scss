@@ -1,0 +1,52 @@
+.bigdivinfosclient{
+        width: 30vw;    
+    .ClientInfosDiv{
+        padding: 0.5vw 1vw;
+        border-bottom: 1px solid $grisBorder;
+        background-color: white;
+        display: inline-block;
+        color: $grisEcriture;
+        height: 15vh;
+        width: 30vw;  
+        .ClientInfosContainer{
+            display: flex; 
+            justify-content: space-between;
+            img{
+                max-width: 38%;
+                height: 10vh;
+            }
+            .InfosNom{
+                display: flex;
+                gap: 1vw;
+                .NomEntreprise{
+                    font-weight: bold;
+                    font-size: 2rem;
+                    
+                }
+                .NomClient{
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: $grisEcriture;
+                }
+            }
+            .StatutPark{
+                .Statut{
+                    background-color: $vert;
+                    color: white;
+                    padding: 0.5vw 1vw;
+                    border-radius: 0.5vw;
+                    font-size: 1.2rem;
+                }
+            }
+        
+        }
+        .DateClient{
+            float: right;
+            color: $grisClaire;
+        }
+    }
+    .clicked{
+        color: $bleu;
+        border-right: 3px $bleu solid;
+    }
+}

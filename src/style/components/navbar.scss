@@ -1,0 +1,70 @@
+.navbar {
+  position:fixed;
+  height: 100vh;
+  width: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2vw;
+  align-items: center;
+  gap: 1vh;
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  .logoImg {
+    width: 5vw;
+    margin-inline: 2vw;
+  
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    a {
+      text-decoration: none;
+      color: $bleu;
+      text-decoration: none;
+      text-align: center;
+      .userInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3vw;
+        .imgAvatar {
+          width: 5vw;
+          margin-right: 1vw;
+        }
+        .info {
+          display: flex;
+          flex-direction: column;
+          .AV-name {
+            font-size: 1.5rem;
+            color: $bleu;
+            font-weight: bold;
+          }
+          .AV-mail {
+            font-size: 1rem;
+            color: $grisClaire;
+          }
+        }
+      }
+    }
+    .nav-active {
+      .list {
+        filter: invert(0);
+      }
+    }
+    .list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3vh;
+      filter: invert(0.5);
+      .IconList {
+        margin-right: 2vh;
+        width: 3vh;
+      }
+      .nameList {
+        font-size: 2rem;
+      }
+    }
+  }
+}

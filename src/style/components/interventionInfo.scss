@@ -1,0 +1,45 @@
+.interventionInfo{
+    .reportCard{
+        display: flex;
+        height: 10vh;
+        width: 30vw;
+        background-color: white;
+        padding: 1.5vh;
+        border-bottom: 2px solid $grisBorder;
+        color:$grisEcriture;
+        .photo{
+            margin-right: 1vw;
+            .imgTechni{
+                width: 5vh;
+            }
+        }
+        .otherInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            .infoCli{
+                .nom{
+                    font-size: 2.5rem;
+                }
+                .date{
+                    font-size: 1.5rem;
+                }
+                display: flex;
+                justify-content: space-between;
+            }
+            .inforeport{
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                span{
+                    font-weight: bold;
+                }     
+            }
+        }
+    }
+    .isClick{
+        color: $bleu;
+        border-right: 3px $bleu solid;
+    }
+}

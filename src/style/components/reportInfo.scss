@@ -1,0 +1,58 @@
+.reportInfo{
+    width: 100%;
+    .reportCard{
+        display: flex;
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        padding: 1.5vh;
+        border-bottom: 2px solid $grisBorder;
+        color:$grisEcriture;
+        .photo{
+            margin-right: 1vw;
+            .imgTechni{
+                width: 5vh;
+            }
+        }
+        .otherInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            .infotech{
+                color: $grisClaire;
+                font-size: 1.5rem;
+                display: flex;
+                justify-content: space-between;
+            }
+            .inforeport{
+                font-size: 2rem;
+                display: flex;
+                align-items: center;
+                span{
+                    font-weight: bold;
+                }
+                .status{
+                    margin-left: 1vh;
+                    content: " ";
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                }
+                .termine {
+                    background-color: $vert;
+                }
+                .assigne{
+                    background-color: $jaune;
+                }
+                .annule{
+                    background-color: $rouge;
+                }
+            }
+        }
+    }
+    .isClick{
+        color: $bleu;
+        border-right: 3px $bleu solid;
+    }
+}

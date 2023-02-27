@@ -1,0 +1,21 @@
+.calendarDisplay{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    .day{
+        display: flex;
+        flex-direction: column;
+        color: grey;
+        align-items: center;
+    }
+    .today{
+        color: black;
+    }
+    .selectedDay{
+        background-color: $bleu;
+        border-radius: 50%;
+        padding: 10%;
+        color: white;
+    }
+}
